@@ -1,0 +1,1319 @@
+repo_name: redoper1/Mailspring
+report_id: 839be7e577072765e34517f524b9ca33
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T20:06:40+00:00'
+requested_by: bengotow
+provider: github
+branch: master
+detected_tools_count: 93
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/redoper1/Mailspring
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/redoper1/Mailspring
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  version: 4.7.7
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/redoper1/Mailspring
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2015-02-04 00:24:31.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/redoper1/Mailspring
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2015-02-04 00:24:31.000000000 Z
+- name: Electron
+  description: Build cross platform desktop apps with JavaScript, HTML, and CSS
+  website_url: http://electron.atom.io/
+  version: 26.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Desktop Development
+  image_url: https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2023-11-21 18:29:12.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2015-02-04 00:24:31.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/internal_packages/category-picker/spec/category-picker-spec.jsx
+  last_updated_by: Ben Gotow
+  last_updated_on: 2019-03-04 19:03:12.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Ben Gotow
+  last_updated_on: 2019-03-17 16:28:01.000000000 Z
+- name: Devtron
+  description: Open source software delivery workflow for Kubernetes
+  website_url: https://devtron.ai/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/39947/default_b3c8a7e8457bfd03ea0d205ce00b24dadcde26d1.jpg
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2023-11-21 18:29:12.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Ben Gotow
+  last_updated_on: 2016-06-19 10:02:32.000000000 Z
+- name: Enzyme
+  description: JavaScript Testing utilities for React, by Airbnb
+  website_url: https://enzymejs.github.io/enzyme/
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/redoper1/Mailspring
+  detection_source: Repo Metadata
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: 1.4.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-11-30 20:11:12.000000000 Z
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  version: 2.99.0
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2015-02-04 00:24:31.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 1.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2015-02-04 00:24:31.000000000 Z
+- name: Sentry
+  description: See performance issues, fix errors faster, and optimize code health.
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2015-02-04 00:24:31.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Ben Gotow
+  last_updated_on: 2021-04-11 03:31:59.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Ben Gotow
+  last_updated_on: 2021-02-14 21:58:22.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2015-02-04 00:24:31.000000000 Z
+- name: Immutable.js
+  description: Immutable persistent data collections for Javascript which increase
+    efficiency and simplicity, by Facebook
+  website_url: http://facebook.github.io/immutable-js/
+  version: 3.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2018-01-11 23:55:56.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/redoper1/Mailspring
+  detection_source: Repo Metadata
+- name: Slate
+  description: Beautiful static documentation for your API, inspired by Stripe's and
+    Paypal's API docs
+  website_url: https://github.com/tripit/slate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Documentation as a Service & Tools
+  image_url: https://img.stackshare.io/service/4189/preview.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: Underscore
+  description: JavaScript's utility _ belt
+  website_url: http://underscorejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/1150/underscore-js.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Evan Morikawa
+  last_updated_on: 2017-02-17 18:47:01.000000000 Z
+- name: "@types/debug"
+  description: TypeScript definitions for debug
+  package_url: https://www.npmjs.com/@types/debug
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/enzyme"
+  description: TypeScript definitions for Enzyme
+  package_url: https://www.npmjs.com/@types/enzyme
+  version: 3.10.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16307/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/enzyme-adapter-react-16"
+  description: TypeScript definitions for enzyme-adapter-react-16
+  package_url: https://www.npmjs.com/@types/enzyme-adapter-react-16
+  version: 1.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16638/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/jasmine"
+  description: TypeScript definitions for Jasmine
+  package_url: https://www.npmjs.com/@types/jasmine
+  version: 1.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/mkdirp"
+  description: TypeScript definitions for mkdirp
+  package_url: https://www.npmjs.com/@types/mkdirp
+  version: 0.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16738/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/proxyquire"
+  description: TypeScript definitions for Proxyquire
+  package_url: https://www.npmjs.com/@types/proxyquire
+  version: 1.3.28
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18284/default_50aa8853d88dc4ec2f0220c77d87d7b045174711.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.14.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.9.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/react-test-renderer"
+  description: TypeScript definitions for react-test-renderer
+  package_url: https://www.npmjs.com/@types/react-test-renderer
+  version: 16.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16593/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/react-transition-group"
+  description: TypeScript definitions for react-transition-group
+  package_url: https://www.npmjs.com/@types/react-transition-group
+  version: 1.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17976/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/rimraf"
+  description: TypeScript definitions for rimraf
+  package_url: https://www.npmjs.com/@types/rimraf
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16613/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/source-map-support"
+  description: TypeScript definitions for source-map-support
+  package_url: https://www.npmjs.com/@types/source-map-support
+  version: 0.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18129/image.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/underscore"
+  description: TypeScript definitions for Underscore
+  package_url: https://www.npmjs.com/@types/underscore
+  version: 1.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17484/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 3.4.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.21.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: app-module-path
+  description: Simple module to add additional directories to the Node module search
+    for top-level app modules
+  package_url: https://www.npmjs.com/app-module-path
+  version: 2.2.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17857/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2024-01-08 16:45:15.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: package.json
+  last_updated_by: Evan Morikawa
+  last_updated_on: 2017-02-17 18:47:01.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Evan Morikawa
+  last_updated_on: 2017-03-31 00:26:33.000000000 Z
+- name: deep-extend
+  description: Recursive object extending
+  package_url: https://www.npmjs.com/deep-extend
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16840/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2019-02-09 10:29:23.000000000 Z
+- name: electron-packager
+  description: Customize and package your Electron app with OS-specific bundles
+  package_url: https://www.npmjs.com/electron-packager
+  version: 17.1.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17433/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2023-11-21 18:29:12.000000000 Z
+- name: enzyme-adapter-react-16
+  description: JavaScript Testing utilities for React
+  package_url: https://www.npmjs.com/enzyme-adapter-react-16
+  version: 1.15.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15959/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Braukmann
+  last_updated_on: 2023-11-14 20:40:51.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: event-kit
+  description: Simple library for implementing and consuming evented APIs
+  package_url: https://www.npmjs.com/event-kit
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18486/default_9652e5065e42159163035bba6229d42930bb6278.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: fs-plus
+  description: Node's fs with more helpers
+  package_url: https://www.npmjs.com/fs-plus
+  version: 2.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17308/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2015-02-04 00:24:31.000000000 Z
+- name: gitbook-cli
+  description: CLI to generate books and documentation using gitbook
+  package_url: https://www.npmjs.com/gitbook-cli
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17278/default_116e98e237458e603feb81cfbf628c00544be692.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-11-30 20:11:12.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.2.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: package.json
+  last_updated_by: Evan Morikawa
+  last_updated_on: 2017-02-21 19:33:00.000000000 Z
+- name: graceful-fs
+  description: A drop-in replacement for fs, making various improvements
+  package_url: https://www.npmjs.com/graceful-fs
+  version: 4.2.11
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16375/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: grunt-cli
+  description: The grunt command line interface
+  package_url: https://www.npmjs.com/grunt-cli
+  version: 1.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-11-30 20:11:12.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: immutable
+  description: Immutable Data Collections
+  package_url: https://www.npmjs.com/immutable
+  version: 3.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16070/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2018-01-11 23:55:56.000000000 Z
+- name: ini
+  description: An ini encoder/decoder for node
+  package_url: https://www.npmjs.com/ini
+  version: 1.3.8
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16594/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2015-02-04 00:24:31.000000000 Z
+- name: jasmine-reporters
+  description: Reporters for the Jasmine BDD Framework
+  package_url: https://www.npmjs.com/jasmine-reporters
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17569/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: lru-cache
+  description: A cache object that deletes the least-recently-used items
+  package_url: https://www.npmjs.com/lru-cache
+  version: 6.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16386/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 0.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Evan Morikawa
+  last_updated_on: 2015-02-09 18:29:58.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.43
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: mousetrap
+  description: Simple library for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/mousetrap
+  version: 1.6.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18018/image.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2016-04-24 17:16:25.000000000 Z
+- name: node-emoji
+  description: Simple emoji support for node.js projects
+  package_url: https://www.npmjs.com/node-emoji
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16476/default_2a878d5ab9753668ecaed6b6450bf9952a00bc9b.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2022-08-08 22:34:18.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2022-08-08 22:34:18.000000000 Z
+- name: node-gyp
+  description: Node.js native addon build tool
+  package_url: https://www.npmjs.com/node-gyp
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16669/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2023-11-15 13:31:00.000000000 Z
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  version: 8.1.4
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2015-02-04 00:24:31.000000000 Z
+  vulnerabilities:
+  - name: Packing does not respect root-level ignore files in workspaces
+    cve_id: CVE-2022-29244
+    cve_url: https://github.com/advisories/GHSA-hj9c-8jmm-8c52
+    detected_date: Jun 3
+    severity: high
+    first_patched: 8.11.0
+- name: optimist
+  description: Light-weight option parsing with an argv hash
+  package_url: https://www.npmjs.com/optimist
+  version: 0.4.0
+  license: MIT,X11
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16145/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2016-10-27 21:44:33.000000000 Z
+- name: proxyquire
+  description: Proxies nodejs require in order to allow overriding dependencies during
+    testing
+  package_url: https://www.npmjs.com/proxyquire
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16138/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: raven
+  description: A standalone
+  package_url: https://www.npmjs.com/raven
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17666/default_fc76e978e9d0682c81d41dcce6c217fcd73fe671.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2017-09-02 06:22:35.000000000 Z
+- name: react-color
+  description: A Collection of Color Pickers from Sketch
+  package_url: https://www.npmjs.com/react-color
+  version: 2.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16955/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 16.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 1.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.81.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2019-02-05 05:54:38.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.5.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: slate-react
+  description: Tools for building completely customizable richtext editors with React
+  package_url: https://www.npmjs.com/slate-react
+  version: 0.21.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18566/default_27683a26a828c4de36f39c196ee155306eb1eaee.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+- name: temp
+  description: Temporary files and directories
+  package_url: https://www.npmjs.com/temp
+  version: 0.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16400/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Evan Morikawa
+  last_updated_on: 2015-02-10 19:10:14.000000000 Z
+- name: underscore.string
+  description: String manipulation extensions for Underscore.js javascript library
+  package_url: https://www.npmjs.com/underscore.string
+  version: 2.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16268/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+  vulnerabilities:
+  - name: Regular Expression Denial of Service in underscore.string
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-v2p6-4mp7-3r9v
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.3.5
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Ben Gotow
+  last_updated_on: 2019-03-04 19:03:12.000000000 Z
+- name: xlsx
+  description: SheetJS Spreadsheet data parser and writer
+  package_url: https://www.npmjs.com/xlsx
+  version: 0.14.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16781/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/redoper1/Mailspring/blob/master/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: Janosch Maier
+  last_updated_on: 2021-12-01 17:01:15.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in sheetJS
+    cve_id: CVE-2023-30533
+    cve_url: https://github.com/advisories/GHSA-4r6h-8v6p-xvw6
+    detected_date: Apr 25
+    severity: high
+    first_patched: 0.19.3
+  - name: Denial of Service in SheetsJS Pro
+    cve_id: CVE-2021-32013
+    cve_url: https://github.com/advisories/GHSA-8vcr-vxm8-293m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.17.0
+  - name: Denial of Service in SheetJS Pro
+    cve_id: CVE-2021-32012
+    cve_url: https://github.com/advisories/GHSA-3x9f-74h4-2fqr
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.17.0
+  - name: Denial of Service in SheetJS Pro
+    cve_id: CVE-2021-32014
+    cve_url: https://github.com/advisories/GHSA-g973-978j-2c3p
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.17.0
